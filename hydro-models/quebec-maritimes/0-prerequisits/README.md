@@ -87,7 +87,7 @@ GitHub repositories:
 Once the `your-virtual-env` is ready, you can add the virtual environment
 to the Jupyter Lab as a kernel by following:
 ```console
- ipython kernel install --name "your-virtual-env" --user
+foo@bar:~$ ipython kernel install --name "your-virtual-env" --user
 ```
 
 # Additional datasets necessary
