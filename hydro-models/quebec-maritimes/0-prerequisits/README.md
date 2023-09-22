@@ -74,5 +74,9 @@ GitHub repositories:
 # Additional datasets necessary
 1. Provinces/Territories, Cartographic Boundary File - 2016 Census: https://open.canada.ca/data/en/dataset/a883eb14-0c0e-45c4-b8c4-b54c4a819edb </b>
 2. MERIT-Basins vector hydrography Dataset (v0.7/v1.0, minor bug fix for coastaline pixels): https://www.reachhydro.org/home/params/merit-basins </b>
+   `MERIT-Basins` is available on Graham HPC under the following directory:
+   ```console
+   /project/rpp-kshook/Model_Output/MERIT-Basins
+   ```
 3. Datatool (v0.4.1): https://github.com/kasra-keshavarz/datatool </b>
 4. GIStool (v0.1.6): https://github.com/kasra-keshavarz/gistool </b>
