@@ -4,7 +4,11 @@ This is a centralized repository to gather all the efforts done on the
 modelling and statistical analyses related to the **FHIMP** program. 
 
 # Hydrological/Land-surface Modelling
-Under development
+Working on two domains:
+  1. Great Lakes region
+  2. Quebec and the Maritimes
+
+![Quebec and the Maritimes](./img/qc_maritimes.png)
 
 # Statistical Flood Frequency Analysis
 Under development
