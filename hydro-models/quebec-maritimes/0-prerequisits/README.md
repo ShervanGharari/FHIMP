@@ -37,7 +37,19 @@ Fortunately, all the above requirements are available on the DRA's Graham
 HPC. You may load the modules with the following command:
 ```console
 foo@bar:~$ module load gcc/9.3.0
-foo@bar:~$ module load libfabric/1.10.1 ipykernel/2023a sqlite/3.38.5 postgresql/12.4 gdal/3.5.1 udunits/2.2.28 cdo/2.2.1 gentoo/2020 imkl/2020.1.217 openmpi/4.0.3 scipy-stack/2023a jasper/2.0.16 freexl/1.0.5 geos/3.10.2 libaec/1.0.6 mpi4py/3.1.3 StdEnv/2020 gcc/9.3.0 libffi/3.3 hdf5/1.10.6 libgeotiff-proj901/1.7.1 librttopo-proj9/1.1.0 proj/9.0.1 eccodes/2.25.0 netcdf-fortran/4.5.2 mii/1.1.2 ucx/1.8.0 python/3.10.2 netcdf/4.7.4 cfitsio/4.1.0 libspatialite-proj901/5.0.1 expat/2.4.1 yaxt/0.9.0 libspatialindex/1.8.5
+foo@bar:~$ module load libfabric/1.10.1 ipykernel/2023a \
+		       sqlite/3.38.5 postgresql/12.4 gdal/3.5.1 \
+		       udunits/2.2.28 cdo/2.2.1 gentoo/2020 \
+		       imkl/2020.1.217 openmpi/4.0.3 scipy-stack/2023a \
+		       jasper/2.0.16 freexl/1.0.5 geos/3.10.2 \
+		       libaec/1.0.6 mpi4py/3.1.3 StdEnv/2020 \
+		       gcc/9.3.0 libffi/3.3 hdf5/1.10.6 \
+		       libgeotiff-proj901/1.7.1 librttopo-proj9/1.1.0 \
+		       proj/9.0.1 eccodes/2.25.0 netcdf-fortran/4.5.2 \
+		       mii/1.1.2 ucx/1.8.0 python/3.10.2 \
+		       netcdf/4.7.4 cfitsio/4.1.0 \
+		       libspatialite-proj901/5.0.1 expat/2.4.1 \
+		       yaxt/0.9.0 libspatialindex/1.8.5
 ```
 It is recommended to save all load modules as a list to be able to restore
 them whenever needed. Using the LMOD features, you may save them with:
@@ -68,11 +80,23 @@ GitHub repositories:
 ```console
 (your-virtual-env) foo@bar:~$ pip install git+https://github.com/kasra-keshavarz/hydrant
 ...
-(yout-virtual-env) foo@bar:~$ pip install git+https://github.com/kasra-keshavarz/meshflow
+(your-virtual-env) foo@bar:~$ pip install git+https://github.com/kasra-keshavarz/meshflow
+```
+
+Once the `your-virtual-env` is ready, you can add the virtual environment
+to the Jupyter Lab as a kernel by following:
+```console
+foo@bar:~$ ipython kernel install --name "your-virtual-env" --user
 ```
 
 # Additional datasets necessary
 1. Provinces/Territories, Cartographic Boundary File - 2016 Census: https://open.canada.ca/data/en/dataset/a883eb14-0c0e-45c4-b8c4-b54c4a819edb </b>
 2. MERIT-Basins vector hydrography Dataset (v0.7/v1.0, minor bug fix for coastaline pixels): https://www.reachhydro.org/home/params/merit-basins </b>
+
+   `MERIT-Basins` is available on Graham HPC under the following directory:
+   ```console
+   /project/rpp-kshook/Model_Output/MERIT-Basins
+   ```
+
 3. Datatool (v0.4.1): https://github.com/kasra-keshavarz/datatool </b>
 4. GIStool (v0.1.6): https://github.com/kasra-keshavarz/gistool </b>

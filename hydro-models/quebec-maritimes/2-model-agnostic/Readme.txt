@@ -76,3 +76,12 @@ Datasets
         * temporal extents: annual soil map reported for 2017
         * soil categories: refer to USDA manual or gistool's documentation
 
+Instructions
+------------
+After modifying the "model-agnostic.json" configuration file, execute the
+"agnostic orchestrator" by:
+
+    foo@bar:~$ ./model-agnostic.sh model-agnostic.json
+
+
+Last edited on September 22nd, 2023
