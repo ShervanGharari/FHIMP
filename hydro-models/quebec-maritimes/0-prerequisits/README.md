@@ -86,6 +86,10 @@ foo@bar:~$ source /path/to/virtualenv/fhimp-env/bin/activate
 (your-virtual-env) foo@bar:~$ # this is how it will look
 ```
 
+Please note that two Python packages needed in the workflows are not yet
+available on PyPI. You may install each directly from their relevant
+GitHub repositories:
+
 And you can install any package within this environment. To install those
 included in the [requirements.txt](./requirements.txt) file:
 ```console
