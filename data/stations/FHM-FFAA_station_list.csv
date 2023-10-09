@@ -1,3 +1,3 @@
-Station ID,Site type,Data type (ID_type_****.csv),Station name,Latitude ,Longitude ,last
-05BH004,Regulated,05BH004_Annual_Flow_tab.csv,BOW RIVER AT CALGARY,51.0503,-114.051,a
-05CC002,Regulated,05CC002_Annual_Flow_tab.csv,RED DEER RIVER AT RED DEER,52.2705,-113.823,a
+Station ID,Site type,Data type (ID_type_****.csv),Station name,Latitude,Longitude
+05BH004,Regulated,05BH004_Annual_Flow_tab.csv,BOW RIVER AT CALGARY,51.0503,-114.051
+05CC002,Regulated,05CC002_Annual_Flow_tab.csv,RED DEER RIVER AT RED DEER,52.2705,-113.823
