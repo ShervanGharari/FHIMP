@@ -73,7 +73,7 @@ Please refer to [DRA's
 manual](https://docs.alliancecan.ca/wiki/Python#Creating_and_using_a_virtual_environment)
 to create a virtual environment using the file mentioned above.
 
-In brief, you can create a Oython virtual environment (after assuring all
+In brief, you can create a Python virtual environment (after assuring all
 the modules are loaded) with:
 ```console
 foo@bar:~$ module restore fhimp-mods
@@ -82,7 +82,7 @@ foo@bar:~$ virtualenv /path/to/virtualenv/your-virtual-env
 
 After creating, you can activate the environment with:
 ```console
-foo@bar:~$ source /path/to/virtualenv/fhimp-env/bin/activate
+foo@bar:~$ source /path/to/virtualenv/your-virtual-env/bin/activate
 (your-virtual-env) foo@bar:~$ # this is how it will look
 ```
 
@@ -96,7 +96,7 @@ included in the [requirements.txt](./requirements.txt) file:
 (your-virtual-env) foo@bar:~$ pip install -r /path/to/requirements.txt
 ```
 
-Please note that two Python packages needed in the workflows are not yet
+Please note that three Python packages needed in the workflows are not yet
 available on PyPI. If not automatically installed using the previous
 steps, you may install each directly from their relevant GitHub repositories:
 ```console
