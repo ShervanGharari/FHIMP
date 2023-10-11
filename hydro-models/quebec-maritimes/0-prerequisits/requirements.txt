@@ -46,6 +46,7 @@ funcsigs==1.0.2
 GDAL==3.5.1
 geopandas==0.14.0
 hydrant @ git+https://github.com/kasra-keshavarz/hydrant.git@bff3a4f96285c8d249688ca5afd27be69a82eca3
+easymore @ git+https://github.com/ShervanGharari/EASYMORE.git@develop_2.0.0
 idna==3.3
 importlib_metadata==4.10.1
 importlib_resources==5.4.0
