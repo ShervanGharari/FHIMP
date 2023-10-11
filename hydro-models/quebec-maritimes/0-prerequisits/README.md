@@ -103,6 +103,8 @@ steps, you may install each directly from their relevant GitHub repositories:
 (your-virtual-env) foo@bar:~$ pip install git+https://github.com/kasra-keshavarz/hydrant
 ...
 (your-virtual-env) foo@bar:~$ pip install git+https://github.com/kasra-keshavarz/meshflow
+...
+(your-virtual-env) foo@bar:~$ pip install git+https://github.com/ShervanGharari/EASYMORE.git@develop_2.0.0
 ```
 
 Once the `your-virtual-env` is ready, you can add the virtual environment
