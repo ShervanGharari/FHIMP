@@ -2,7 +2,7 @@
   "exec": {
     "met": "../../virtual_env/datatool/extract-dataset.sh",
     "gis": "../../virtual_env/gistool/extract-gis.sh",
-    "remap": "module restore fhimp-mods && source ../../virtual_env/fhimp_venv/bin/activate && easymore cli"
+    "remap": "easymore cli"
   },
 
   "args": {

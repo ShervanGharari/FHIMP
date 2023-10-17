@@ -1,6 +1,9 @@
 #!/bin/bash    
 # Credit to be mentioned here
 
+module restore fhimp-mods
+source ../../virtual_env/fhimp_venv/bin/activate
+
 # input variables
 conf="$1"
 
