@@ -2,7 +2,7 @@
   "exec": {
     "met": "../../virtual_env/datatool/extract-dataset.sh",
     "gis": "../../virtual_env/gistool/extract-gis.sh",
-    "remap": "easymore cli"
+    "remap": "module restore fhimp-mods && source ../../virtual_env/fhimp_venv/bin/activate && easymore cli"
   },
 
   "args": {
@@ -20,10 +20,10 @@
       ],
       "output-dir": "/home/shg096/scratch/Bow_at_Calgary/datatool_outputs",
       "start-date": "1980-01-01T13:00:00",
-      "end-date": "1980-12-31T12:00:00",
+      "end-date": "1980-01-05T12:00:00",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary.shp",
+      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
       "model": "",
       "ensemble": "",
       "prefix": "Bow_at_Calgary_",
@@ -43,7 +43,7 @@
       "output-dir": "/home/shg096/scratch/Bow_at_Calgary/gistool_outputs/landsat",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary.shp",
+      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "frac",
@@ -53,7 +53,7 @@
       "prefix": "Bow_at_Calgary_",
       "email": "shervan.gharari@usask.ca",
       "_flags": [
-	"include-na",
+  "include-na",
         "submit-job",
         "parsable"
       ]
@@ -68,16 +68,16 @@
       "output-dir": "/home/shg096/scratch/Bow_at_Calgary/gistool_outputs/soil_classes",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary.shp",
+      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
       "print-geotiff": "true",
       "stat": [
-        "major"
+        "majority"
       ],
       "quantile": "",
       "prefix": "Bow_at_Calgary_",
       "email": "shervan.gharari@usask.ca",
       "_flags": [
-	"include-na",
+  "include-na",
         "submit-job",
         "parsable"
       ]
@@ -86,9 +86,9 @@
     "remap": [{
       "case-name": "Bow_at_Calgary",
       "cache": "/home/shg096/scratch/Bow_at_Calgary/easymore_outputs/temp_dir/",
-      "shapefile": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary.shp",
+      "shapefile": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
       "shapefile-id": "COMID",
-      "source-nc": "/home/shg096/scratch/Bow_at_Calgary/datatool_outputs/*.nc",
+      "source-nc": "/home/shg096/scratch/Bow_at_Calgary/datatool_outputs/**/*.nc*",
       "variable-lon": "lon",
       "variable-lat": "lat",
       "variable": [
