@@ -172,3 +172,7 @@ tests/
 # doc stuff
 *.pdf
 *.html
+
+# datatool and gistool that are downloaded inside
+virtual_env/datatool/
+virtual_env/gistool/
