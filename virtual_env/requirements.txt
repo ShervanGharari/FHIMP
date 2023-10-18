@@ -45,7 +45,6 @@ fonttools==4.29.1
 funcsigs==1.0.2
 GDAL==3.5.1
 geopandas==0.14.0
-hydrant @ git+https://github.com/kasra-keshavarz/hydrant.git@bff3a4f96285c8d249688ca5afd27be69a82eca3
 idna==3.3
 importlib_metadata==4.10.1
 importlib_resources==5.4.0
@@ -62,7 +61,6 @@ lockfile==0.12.2
 MarkupSafe==2.0.1
 matplotlib==3.5.1
 matplotlib_inline==0.1.6
-meshflow @ git+https://github.com/kasra-keshavarz/meshflow@c56e33f98945d06066082a4701128577b99f5f23
 mistune==0.8.4
 mock==4.0.3
 mpi4py==3.1.3
