@@ -27,7 +27,7 @@
       "model": "",
       "ensemble": "",
       "prefix": "Bow_at_Calgary_",
-      "email": "shervan.gharari@usask.ca",
+      "email": "user@example.domain",
       "_flags": [
         "submit-job",
         "parsable"
@@ -51,7 +51,7 @@
       ],
       "quantile": "",
       "prefix": "Bow_at_Calgary_",
-      "email": "shervan.gharari@usask.ca",
+      "email": "user@example.domain",
       "_flags": [
   "include-na",
         "submit-job",
@@ -75,7 +75,7 @@
       ],
       "quantile": "",
       "prefix": "Bow_at_Calgary_",
-      "email": "shervan.gharari@usask.ca",
+      "email": "user@example.domain",
       "_flags": [
   "include-na",
         "submit-job",
