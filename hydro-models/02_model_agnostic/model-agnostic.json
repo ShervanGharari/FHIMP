@@ -53,7 +53,7 @@
       "prefix": "Bow_at_Calgary_",
       "email": "user@example.domain",
       "_flags": [
-  "include-na",
+        "include-na",
         "submit-job",
         "parsable"
       ]
@@ -77,11 +77,39 @@
       "prefix": "Bow_at_Calgary_",
       "email": "user@example.domain",
       "_flags": [
-  "include-na",
+        "include-na",
         "submit-job",
         "parsable"
       ]
-    }],
+    },
+
+    {
+      "dataset": "merit-hydro",
+      "dataset-dir": "/project/rpp-kshook/CompHydCore/merit_hydro/raw_data/",
+      "variable": "elv,hnd",
+      "start-date": "",
+      "end-date": "",
+      "output-dir": "/home/shg096/scratch/Bow_at_Calgary/gistool_outputs/merit_hydro",
+      "lat-lims": "",
+      "lon-lims": "",
+      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
+      "print-geotiff": "true",
+      "stat": [
+        "min",
+        "max",
+        "mean",
+        "median"
+      ],
+      "prefix": "Bow_at_Calgary_",
+      "email": "user@example.domain",
+      "_flags": [
+        "include-na",
+        "submit-job",
+        "parsable"
+      ]
+    }
+
+    ],
 
     "remap": [{
       "case-name": "Bow_at_Calgary",
