@@ -13,8 +13,8 @@ indatachecklevel	2
 !!
 !! -----------------
 bdate      	1980-01-01	&
-cdate      	1980-01-02
-edate      	1980-01-05
+cdate      	1980-06-01
+edate      	1980-12-30
 resultdir ./results/
 instate	n
 !! outstatedate
@@ -23,7 +23,7 @@ submodel 	n
 calibration	n
 readobsid       n
 soilstretch	n
-readformat 	4
+readformat      4
 !! Soilstretch enable the use of soilcorr parameters (strech soildepths in layer 2 and 3)
 steplength	1d
 !! -----------------------------------------------------------------------------
@@ -100,13 +100,16 @@ modeloption wetlandmodel 2
 !! BASIN outputs
 !! The present basins are some large rivers distributed over different continents
 !! -----------------
-netcdfoutput variable	cout	rout	clof	cloc	evap	cprc	psub	esub	psim	evpt	prec	clrp	clre	icpe	soim	snow	gwat	crun	mrfa	coum	cmrq	cmrv
-netcdfoutput meanperiod	1
-netcdfoutput decimals	3
+basinoutput variable	cout	rout	clof	cloc	evap
+basinoutput meanperiod	1
+basinoutput decimals	3
+!! basinoutput subbasin
+!! cprc	psub	esub	psim	evpt	prec	clrp	clre	icpe	soim	snow	gwat	crun	mrfa	coum	cmrq	cmrv
+!! basinoutput subbasin
 !! -----------------
 !! TIME outputs
 !! -----------------
-!! timeoutput variable	cout	rout	clof	cloc	evap	cprc	psub	esub	psim	evpt	prec	clrp	clre	icpe	soim	snow	gwat	crun	mrfa	coum	cmrq	cmrv
+netcdfoutput variable	cout	rout	clof	cloc	evap
 !! timeoutput meanperiod	0
 !! timeoutput decimals	3
 !! timeoutput subbasin	71027962
@@ -123,13 +126,13 @@ netcdfoutput decimals	3
 !! -----------------
 !! General settings
 !! -----------------
-!!crit meanperiod	1
-!!crit datalimit	30
-!!crit subbasin	71039810	74001235	74000071
+!! crit meanperiod	1
+!! crit datalimit	30
+!! crit subbasin	71039810	74001235	74000071
 !! -----------------
 !! Criterion-specific settings
 !! -----------------
-crit 1 criterion	MKG
-crit 1 cvariable	cout
-crit 1 rvariable	rout
-crit 1 weight	1
+!! crit 1 criterion	MKG
+!! crit 1 cvariable	cout
+!! crit 1 rvariable	rout
+!! crit 1 weight	1
