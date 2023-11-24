@@ -20,14 +20,14 @@
       ],
       "output-dir": "/home/shg096/scratch/West/datatool_outputs",
       "start-date": "1980-01-01T13:00:00",
-      "end-date": "1981-12-31T12:00:00",
+      "end-date": "1980-01-31T12:00:00",
       "lat-lims": "",
       "lon-lims": "",
       "shape-file": "/home/shg096/scratch/West/domain/West_cat.shp",
       "model": "",
       "ensemble": "",
       "prefix": "West_",
-      "email": "shervan.gharari@usask.ca",
+      "email": "user@example.domain",
       "_flags": [
         "submit-job",
         "parsable"
@@ -51,7 +51,7 @@
       ],
       "quantile": "",
       "prefix": "West_",
-      "email": "shervan.gharari@usask.ca",
+      "email": "user@example.domain",
       "_flags": [
         "include-na",
         "submit-job",
@@ -75,7 +75,7 @@
       ],
       "quantile": "",
       "prefix": "West_",
-      "email": "shervan.gharari@usask.ca",
+      "email": "user@example.domain",
       "_flags": [
         "include-na",
         "submit-job",
@@ -101,7 +101,7 @@
         "median"
       ],
       "prefix": "West_",
-      "email": "shervan.gharari@usask.ca",
+      "email": "user@example.domain",
       "_flags": [
         "include-na",
         "submit-job",
