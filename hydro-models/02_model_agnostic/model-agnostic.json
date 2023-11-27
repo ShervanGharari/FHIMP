@@ -18,15 +18,15 @@
         "RDRS_v2.1_P_FB_SFC",
         "RDRS_v2.1_P_FI_SFC"
       ],
-      "output-dir": "/home/shg096/scratch/Bow_at_Calgary/datatool_outputs",
+      "output-dir": "/home/shg096/scratch/West/datatool_outputs",
       "start-date": "1980-01-01T13:00:00",
-      "end-date": "1980-01-05T12:00:00",
+      "end-date": "1980-01-31T12:00:00",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
+      "shape-file": "/home/shg096/scratch/West/domain/West_cat.shp",
       "model": "",
       "ensemble": "",
-      "prefix": "Bow_at_Calgary_",
+      "prefix": "West_",
       "email": "user@example.domain",
       "_flags": [
         "submit-job",
@@ -40,17 +40,17 @@
       "variable": "land-cover",
       "start-date": "2020",
       "end-date": "2020",
-      "output-dir": "/home/shg096/scratch/Bow_at_Calgary/gistool_outputs/landsat",
+      "output-dir": "/home/shg096/scratch/West/gistool_outputs/landsat",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
+      "shape-file": "/home/shg096/scratch/West/domain/West_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "frac",
         "coords"
       ],
       "quantile": "",
-      "prefix": "Bow_at_Calgary_",
+      "prefix": "West_",
       "email": "user@example.domain",
       "_flags": [
         "include-na",
@@ -65,16 +65,16 @@
       "variable": "soil_classes",
       "start-date": "",
       "end-date": "",
-      "output-dir": "/home/shg096/scratch/Bow_at_Calgary/gistool_outputs/soil_classes",
+      "output-dir": "/home/shg096/scratch/West/gistool_outputs/soil_classes",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
+      "shape-file": "/home/shg096/scratch/West/domain/West_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "majority"
       ],
       "quantile": "",
-      "prefix": "Bow_at_Calgary_",
+      "prefix": "West_",
       "email": "user@example.domain",
       "_flags": [
         "include-na",
@@ -89,10 +89,10 @@
       "variable": "elv,hnd",
       "start-date": "",
       "end-date": "",
-      "output-dir": "/home/shg096/scratch/Bow_at_Calgary/gistool_outputs/merit_hydro",
+      "output-dir": "/home/shg096/scratch/West/gistool_outputs/merit_hydro",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
+      "shape-file": "/home/shg096/scratch/West/domain/West_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "min",
@@ -100,7 +100,7 @@
         "mean",
         "median"
       ],
-      "prefix": "Bow_at_Calgary_",
+      "prefix": "West_",
       "email": "user@example.domain",
       "_flags": [
         "include-na",
@@ -112,11 +112,11 @@
     ],
 
     "remap": [{
-      "case-name": "Bow_at_Calgary",
-      "cache": "/home/shg096/scratch/Bow_at_Calgary/easymore_outputs/temp_dir/",
-      "shapefile": "/home/shg096/scratch/Bow_at_Calgary/domain/Bow_at_Calgary_cat.shp",
+      "case-name": "West",
+      "cache": "/home/shg096/scratch/West/easymore_outputs/temp_dir/",
+      "shapefile": "/home/shg096/scratch/West/domain/West_cat.shp",
       "shapefile-id": "COMID",
-      "source-nc": "/home/shg096/scratch/Bow_at_Calgary/datatool_outputs/**/*.nc*",
+      "source-nc": "/home/shg096/scratch/West/datatool_outputs/**/*.nc*",
       "variable-lon": "lon",
       "variable-lat": "lat",
       "variable": [
@@ -130,7 +130,7 @@
       ],
       "remapped-var-id": "COMID",
       "remapped-dim-id": "COMID",
-      "output-dir": "/home/shg096/scratch/Bow_at_Calgary/easymore_outputs/remapped/",
+      "output-dir": "/home/shg096/scratch/West/easymore_outputs/remapped/",
       "_flags": [
         "submit-job"
       ]

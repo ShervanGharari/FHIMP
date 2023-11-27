@@ -83,5 +83,13 @@ After modifying the "model-agnostic.json" configuration file, execute the
 
     foo@bar:~$ ./model-agnostic.sh model-agnostic.json
 
+Clean up
+------------
+It might be the case that for some subbasins the soil, land cover values are 
+NaN or 0, missing. Also land cover fractions can be rather small which may 
+add to computational cost and can be removed based on modellers decision. 
+This code are located in clean_up_and_checks.ipynb. It should be simulated onces
+after the complete executation of "model-agnostic.sh".
+
 
 Last edited on September 22nd, 2023
