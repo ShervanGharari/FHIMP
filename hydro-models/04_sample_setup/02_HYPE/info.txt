@@ -100,9 +100,9 @@ modeloption wetlandmodel 2
 !! BASIN outputs
 !! The present basins are some large rivers distributed over different continents
 !! -----------------
-basinoutput variable	cout	rout	clof	cloc	evap
-basinoutput meanperiod	1
-basinoutput decimals	3
+!! basinoutput variable	cout	rout	clof	cloc	evap
+!! basinoutput meanperiod	1
+!! basinoutput decimals	3
 !! basinoutput subbasin
 !! cprc	psub	esub	psim	evpt	prec	clrp	clre	icpe	soim	snow	gwat	crun	mrfa	coum	cmrq	cmrv
 !! basinoutput subbasin
@@ -110,6 +110,7 @@ basinoutput decimals	3
 !! TIME outputs
 !! -----------------
 netcdfoutput variable	cout	rout	clof	cloc	evap
+!! timeoutput variable	cout	rout	clof	cloc	evap
 !! timeoutput meanperiod	0
 !! timeoutput decimals	3
 !! timeoutput subbasin	71027962
