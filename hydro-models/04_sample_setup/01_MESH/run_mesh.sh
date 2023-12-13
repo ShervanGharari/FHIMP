@@ -1,7 +1,12 @@
 #!/bin/bash
 
+# module and python virtual env
 module restore fhimp-mods
 source ../../../virtual_env/fhimp_venv/bin/activate
+
+# create results folder
+rm -rf ./results
+mkdir ./results
 
 # date and time
 echo "start at $( date )"
