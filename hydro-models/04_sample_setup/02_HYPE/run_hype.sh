@@ -1,6 +1,11 @@
 #!/bin/bash
 
+# module and python virtual env
+module restore fhimp-mods
+source ../../../virtual_env/fhimp_venv/bin/activate
+
 # create results folder
+rm -rf ./results
 mkdir ./results
 
 # classic version using txt input files
@@ -17,3 +22,5 @@ mkdir ./results
 echo "start at $( date )"
 ./hype_nc
 echo "end at $( date)"
+
+python post_processing/post_processing.py
