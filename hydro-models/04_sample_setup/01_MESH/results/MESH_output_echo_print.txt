@@ -1770,7 +1770,7 @@
              pwr_iak    1.361000
              flz_iak   0.4200000E-04
  READING: outputs_balance.txt
-   Reading output variable: RFF
+   Reading output variable: SNO
    Reading output variable: RFF
    Reading output variable: QO
    Reading output variable: QI
@@ -2083,4 +2083,4 @@
  
  Program has terminated normally.
  
- Time = 11.15122 seconds.
+ Time = 10.73718 seconds.

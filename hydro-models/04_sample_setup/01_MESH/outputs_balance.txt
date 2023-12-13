@@ -1,6 +1,6 @@
 !LQWSCAN M D Y nc 
 !FZWSCAN M D Y nc 
-!SNO     M D Y nc
+SNO     D   csv
 !LQWSSNO M D Y nc
 !LQWSPND M D Y nc
 !LQWSSOL M D Y nc
