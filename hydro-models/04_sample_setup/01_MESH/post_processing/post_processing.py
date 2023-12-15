@@ -2,8 +2,9 @@ import hydrant.util.util as util
 import hydrant.mizuRoute.mizuRoute as mz
 import pandas as pd
 
+## STREAMFLOW
 # change the daily discharge values from txt to nc
-data = util.mesh_output_txt_to_nc('./results/QI_D.csv',
+data = util.mesh_output_txt_to_nc('./results/QO_D.csv',
                              data_frame_DateTime_column = 'time',
                              variable_name = 'streamflow',
                              variable_dim_name = 'id',
@@ -13,7 +14,7 @@ data = util.mesh_output_txt_to_nc('./results/QI_D.csv',
                              ddb_file = 'MESH_drainage_database.nc',
                              rank_var_ddb = 'Rank',
                              segID_var_ddb = 'subbasin',
-                             nc_file_to_save = './results/QI_D.nc')
+                             nc_file_to_save = './results/QO_D.nc')
 
 # read the station seg files and save the files
 station_seg = pd.read_csv('./post_processing/West_station_segment.csv')
@@ -28,7 +29,7 @@ for index, row in station_seg.iterrows():
     else:
         order_ids = row['seg ID']
 
-    mz.reorder_output('./results/QI_D.nc',
+    mz.reorder_output('./results/QO_D.nc',
                       order_ids,
                       'segID',
                       'id',
@@ -41,4 +42,16 @@ for index, row in station_seg.iterrows():
                       output_folder = './results/')
 
 
-
+## SNOW
+# change the daily discharge values from txt to nc
+data = util.mesh_output_txt_to_nc('./results/SNO_D.csv',
+                             data_frame_DateTime_column = 'time',
+                             variable_name = 'snow',
+                             variable_dim_name = 'id',
+                             unit_of_variable = 'mm',
+                             variable_long_name = 'snow water equivalant',
+                             Fill_value = '-9999',
+                             ddb_file = 'MESH_drainage_database.nc',
+                             rank_var_ddb = 'Rank',
+                             segID_var_ddb = 'subbasin',
+                             nc_file_to_save = './results/SNO_D.nc')
