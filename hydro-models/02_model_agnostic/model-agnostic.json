@@ -15,12 +15,13 @@
         "RDRS_v2.1_P_TT_1.5m",
         "RDRS_v2.1_P_UVC_10m",
         "RDRS_v2.1_P_PR0_SFC",
+        "RDRS_v2.1_A_PR0_SFC",
         "RDRS_v2.1_P_FB_SFC",
         "RDRS_v2.1_P_FI_SFC"
       ],
       "output-dir": "/home/shg096/scratch/West/datatool_outputs",
       "start-date": "1980-01-01T13:00:00",
-      "end-date": "1980-01-31T12:00:00",
+      "end-date": "1990-01-31T12:00:00",
       "lat-lims": "",
       "lon-lims": "",
       "shape-file": "/home/shg096/scratch/West/domain/West_cat.shp",
@@ -125,6 +126,7 @@
         "RDRS_v2.1_P_TT_1.5m",
         "RDRS_v2.1_P_UVC_10m",
         "RDRS_v2.1_P_PR0_SFC",
+        "RDRS_v2.1_A_PR0_SFC",
         "RDRS_v2.1_P_FB_SFC",
         "RDRS_v2.1_P_FI_SFC"
       ],
