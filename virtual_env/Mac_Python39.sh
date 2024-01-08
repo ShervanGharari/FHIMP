@@ -21,7 +21,7 @@ python3.9 -m pip install ipykernel
 # packages to be added to requirments or release on pypi
 python3.9 -m pip install git+https://github.com/kasra-keshavarz/hydrant
 python3.9 -m pip install git+https://github.com/kasra-keshavarz/meshflow
-python3.9 -m pip install git+https://github.com/ShervanGharari/EASYMORE.git@develop_2.0.0
+python3.9 -m pip install git+https://github.com/ShervanGharari/EASYMORE.git
 
 # add the virtual env to kernel and list
 python3.9 -m ipykernel install --name=fhimp_venv # Add the new virtual environment to Jupyter

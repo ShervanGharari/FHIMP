@@ -29,7 +29,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 pip install git+https://github.com/ShervanGharari/hydrant
 pip install git+https://github.com/kasra-keshavarz/meshflow
-pip install git+https://github.com/ShervanGharari/EASYMORE.git@develop_2.0.0
+pip install git+https://github.com/ShervanGharari/EASYMORE.git
 ipython kernel install --name "fhimp_venv" --user # add virtual env to kernel
 
 
