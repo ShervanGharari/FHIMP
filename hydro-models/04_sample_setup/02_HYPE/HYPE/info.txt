@@ -23,7 +23,7 @@ submodel 	n
 calibration	n
 readobsid       n
 soilstretch	n
-readformat      4
+!! readformat      4
 !! Soilstretch enable the use of soilcorr parameters (strech soildepths in layer 2 and 3)
 steplength	1d
 !! -----------------------------------------------------------------------------
@@ -109,8 +109,8 @@ modeloption wetlandmodel 2
 !! -----------------
 !! TIME outputs
 !! -----------------
-netcdfoutput variable	cout	rout	clof	cloc	evap	loff
-!! timeoutput variable	cout	rout	clof	cloc	evap
+!! netcdfoutput variable	cout	rout	clof	cloc	evap	loff
+timeoutput variable	cout	rout	clof	cloc	evap
 !! timeoutput meanperiod	0
 !! timeoutput decimals	3
 !! timeoutput subbasin	71027962
