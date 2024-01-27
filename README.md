@@ -1,7 +1,7 @@
 # Flood Hazard Identification and Mapping Program (FHIMP)
 
 This is a centralized repository to gather all the efforts done on the
-modelling and statistical analyses related to the **FHIMP** program. 
+modelling and statistical analyses related to the **FHIMP** program.
 
 # Hydrological/Land-surface Modelling
 Working on two domains:
