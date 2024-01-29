@@ -21,6 +21,11 @@ echo "start at $( date )"
 ./route_runoff.cesm_coupling.exe ./settings/control_file.control
 echo "end at $( date)"
 
+# merge mizuRoute output
+cd ./output
+module load cdo; cdo mergetime domain.h.*.nc* outfile.nc
+cd ..
+
 # cd back
 cd ..
 

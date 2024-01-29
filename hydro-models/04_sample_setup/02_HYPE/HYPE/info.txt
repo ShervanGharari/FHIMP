@@ -110,7 +110,7 @@ modeloption wetlandmodel 2
 !! TIME outputs
 !! -----------------
 netcdfoutput variable	cout	rout	clof	cloc	evap	loff
-!! timeoutput variable	cout	rout	clof	cloc	evap
+timeoutput variable	cout	rout	clof	cloc	evap loff
 !! timeoutput meanperiod	0
 !! timeoutput decimals	3
 !! timeoutput subbasin	71027962

@@ -28,8 +28,9 @@ source ./fhimp_venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 pip install git+https://github.com/ShervanGharari/hydrant
+pip install git+https://github.com/ShervanGharari/hypeflow
 pip install git+https://github.com/kasra-keshavarz/meshflow
-pip install git+https://github.com/ShervanGharari/EASYMORE.git@develop_2.0.0
+pip install git+https://github.com/ShervanGharari/EASYMORE.git@utility
 ipython kernel install --name "fhimp_venv" --user # add virtual env to kernel
 
 

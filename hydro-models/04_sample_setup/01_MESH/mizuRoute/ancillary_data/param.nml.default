@@ -3,8 +3,8 @@
   tscale = 86400
 /
 &IRF_UH
-  velo   = 0.6
-  diff   = 5000
+  velo   = 1.0
+  diff   = 10000
 /
 &KWT
   mann_n = 0.01
