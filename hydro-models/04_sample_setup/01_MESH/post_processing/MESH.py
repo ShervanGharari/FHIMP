@@ -3,8 +3,8 @@ import hydrant.mizuRoute.mizuRoute as mz
 import pandas as pd
 
 #inputs
-path_result_MESH = './MESH/' # or can be './'
-path_station_seg = './post_processing/'
+path_result_MESH = '../MESH/' # or can be './'
+path_station_seg = './'
 
 ## SNOW
 # change the daily discharge values from txt to nc

@@ -4,7 +4,7 @@
 module restore fhimp-mods
 source ~/FHIMP/virtual_env/fhimp_venv/bin/activate
 
-# run MESH
+# run HYPE
 bash run_HYPE.sh
 
 # run mizuRoute

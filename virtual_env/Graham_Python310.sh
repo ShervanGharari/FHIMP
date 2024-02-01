@@ -18,7 +18,7 @@ module load libfabric/1.10.1 ipykernel/2023a \
     mii/1.1.2 ucx/1.8.0 python/3.10.2 \
     netcdf/4.7.4 cfitsio/4.1.0 \
     libspatialite-proj901/5.0.1 expat/2.4.1 \
-    yaxt/0.9.0 libspatialindex/1.8.5
+    yaxt/0.9.0 libspatialindex/1.8.5 openblas/0.3.17
 
 module save fhimp-mods
 
