@@ -29,4 +29,6 @@ cd ..
 # cd back
 cd ..
 
-python post_processing/mizuRoute.py # to pass the output as nc file
+cd post_processing
+python mizuRoute.py # to pass the output as nc file
+cd ..

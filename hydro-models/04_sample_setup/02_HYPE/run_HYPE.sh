@@ -27,4 +27,6 @@ echo "end at $( date)"
 
 cd ..
 
-python post_processing/HYPE.py
+cd  post_processing
+python HYPE.py
+cd ..

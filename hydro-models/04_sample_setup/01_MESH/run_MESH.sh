@@ -19,4 +19,6 @@ echo "end at $( date)"
 # cd back
 cd ..
 
-python post_processing/MESH.py # to pass the output as nc file
+cd post_processing
+python MESH.py # to pass the output as nc file
+cd ..

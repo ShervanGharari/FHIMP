@@ -3,8 +3,8 @@ import hydrant.mizuRoute.mizuRoute as mz
 import pandas as pd
 
 #inputs
-path_result = './mizuRoute/output/' # or can be './'
-path_station_seg = './post_processing/'
+path_result = '../mizuRoute/output/' # or can be './'
+path_station_seg = './'
 
 # read the station seg files and save the files
 station_seg = pd.read_csv(path_station_seg+'domain_station_segment.csv')
