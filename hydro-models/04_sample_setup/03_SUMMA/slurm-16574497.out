@@ -1,0 +1,123 @@
+start at Mon Feb  5 14:54:28 EST 2024
+file_master is 'fileManager.txt'.
+   1 controlVersion: SUMMA_FILE_MANAGER_V3.0.0
+   2 simStartTime: 1980-01-01 13:00
+   3 simEndTime: 1980-01-30 12:00
+   4 tmZoneInfo: utcTime
+   5 outFilePrefix: summa
+   6 settingsPath: ./
+   7 forcingPath: ./
+   8 outputPath: ./results/
+   9 initConditionFile: SUMMA_coldState.nc
+  10 attributeFile: SUMMA_attributes.nc
+  11 trialParamFile: SUMMA_trialParams.nc
+  12 forcingListFile: forcingFileList.txt
+  13 decisionsFile: modelDecisions.txt
+  14 outputControlFile: outputControl.txt
+  15 globalHruParamFile: localParamInfo.txt
+  16 globalGruParamFile: basinParamInfo.txt
+  17 vegTableFile: TBL_VEGPARM.TBL
+  18 soilTableFile: TBL_SOILPARM.TBL
+  19 generalTableFile: TBL_GENPARM.TBL
+  20 noahmpTableFile: TBL_MPTABLE.TBL
+ id variable requested in outputControl, will be skipped: variable=hruId
+decisions file =  ./modelDecisions.txt
+   1 soilCatTbl: ROSETTA
+   2 vegeParTbl: MODIFIED_IGBP_MODIS_NOAH
+   3 soilStress: NoahType
+   4 stomResist: BallBerry
+   5 num_method: itertive
+   6 fDerivMeth: analytic
+   7 LAI_method: monTable
+   8 f_Richards: mixdform
+   9 groundwatr: bigBuckt
+  10 hc_profile: constant
+  11 bcUpprTdyn: nrg_flux
+  12 bcLowrTdyn: zeroFlux
+  13 bcUpprSoiH: liq_flux
+  14 bcLowrSoiH: drainage
+  15 veg_traits: Raupach_BLM1994
+  16 canopyEmis: difTrans
+  17 snowIncept: lightSnow
+  18 windPrfile: logBelowCanopy
+  19 astability: louisinv
+  20 canopySrad: BeersLaw
+  21 alb_method: conDecay
+  22 compaction: anderson
+  23 snowLayers: CLM_2010
+  24 thCondSnow: jrdn1991
+  25 thCondSoil: funcSoilWet
+  26 spatial_gw: localColumn
+  27 subRouting: qInstant
+startTime: iyyy, im, id, ih, imin = 1980  1  1 13  0
+finshTime: iyyy, im, id, ih, imin = 1980  1 30 12  0
+number of time steps =         696
+ 
+INFO: aspect not found in the input attribute file, continuing ...
+
+Skipping over LUTYPE = USGS
+Skipping over SLTYPE = STAS
+Skipping over SLTYPE = STAS-RUC
+ WARNING: routingRunoffFuture is not in the initial conditions file ... using zeros
+ Created output file: ./results/summa_day.nc
+ Created output file: ./results/summa_timestep.nc
+1980  1  2  0  0
+1980  1  3  0  0
+1980  1  4  0  0
+1980  1  5  0  0
+1980  1  6  0  0
+1980  1  7  0  0
+1980  1  8  0  0
+1980  1  9  0  0
+1980  1 10  0  0
+1980  1 11  0  0
+1980  1 12  0  0
+1980  1 13  0  0
+1980  1 14  0  0
+1980  1 15  0  0
+1980  1 16  0  0
+1980  1 17  0  0
+1980  1 18  0  0
+1980  1 19  0  0
+1980  1 20  0  0
+1980  1 21  0  0
+1980  1 22  0  0
+1980  1 23  0  0
+1980  1 24  0  0
+1980  1 25  0  0
+1980  1 26  0  0
+1980  1 27  0  0
+1980  1 28  0  0
+1980  1 29  0  0
+1980  1 30  0  0
+
+initial date/time = 2024-02-05  14:54:28.655
+  final date/time = 2024-02-05  14:56:58.737
+
+     elapsed init =   8.2000000E-02 s
+    fraction init =   5.4636799E-04
+
+    elapsed setup =   0.8400000     s
+   fraction setup =   5.5969403E-03
+
+  elapsed restart =   9.0000000E-03 s
+ fraction restart =   5.9967218E-05
+
+     elapsed read =   0.2990000     s
+    fraction read =   1.9922442E-03
+
+    elapsed write =    6.391000     s
+   fraction write =   4.2583388E-02
+
+  elapsed physics =    142.1950     s
+ fraction physics =   0.9474487    
+
+     elapsed time =    150.0820     s
+       or              2.501367     m
+       or             4.1689444E-02 h
+       or             1.7370602E-03 d
+
+   number threads =          1
+
+ FORTRAN STOP: finished simulation successfully.
+end at Mon Feb  5 14:56:58 EST 2024

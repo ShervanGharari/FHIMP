@@ -1965,4 +1965,4 @@
  
  Program has terminated normally.
  
- Time = 9.825807 seconds.
+ Time = 9.822706 seconds.
