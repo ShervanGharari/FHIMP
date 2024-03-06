@@ -34,7 +34,31 @@
       ]
     }],
 
-    "gis": [
+    "gis": [{
+      "dataset": "landsat",
+      "dataset-dir": "/project/rpp-kshook/Model_Output/Landsat/",
+      "variable": "land-cover",
+      "start-date": "2020",
+      "end-date": "2020",
+      "output-dir": "/home/maryam1/scratch/test/gistool_outputs/landsat",
+      "lat-lims": "",
+      "lon-lims": "",
+      "shape-file": "/home/maryam1/scratch/test/domain/domain_cat.shp",
+      "print-geotiff": "true",
+      "stat": [
+        "frac",
+        "coords"
+      ],
+      "quantile": "",
+      "prefix": "domain_",
+      "email": "user@example.domain",
+      "_flags": [
+        "include-na",
+        "submit-job",
+        "parsable"
+      ]
+    },
+            
     {
       "dataset": "modis",
       "dataset-dir": "/project/rpp-kshook/Model_Output/MODIS/",
