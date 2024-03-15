@@ -20,7 +20,7 @@
       ],
       "output-dir": "/home/maryam1/scratch/test/datatool_outputs",
       "start-date": "1980-01-01T13:00:00",
-      "end-date": "2018-01-30T12:00:00",
+      "end-date": "1981-01-30T12:00:00",
       "lat-lims": "20,43",
       "lon-lims": "40,63",
       "model": "",
@@ -43,7 +43,7 @@
       "output-dir": "/home/maryam1/scratch/test/gistool_outputs/MODIS",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/maryam1/scratch/test/domain_cat.shp",
+      "shape-file": "/home/maryam1/scratch/test/domain/domain_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "frac",
@@ -68,7 +68,7 @@
       "output-dir": "/home/maryam1/scratch/test/gistool_outputs/soil_classes",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/maryam1/scratch/test/domain_cat.shp",
+      "shape-file": "/home/maryam1/scratch/test/domain/domain_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "frac",
@@ -93,7 +93,7 @@
       "output-dir": "/home/maryam1/scratch/test/gistool_outputs/merit_hydro",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/maryam1/scratch/test/domain_cat.shp",
+      "shape-file": "/home/maryam1/scratch/test/domain/domain_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "min",
@@ -115,7 +115,7 @@
     "remap": [{
       "case-name": "domain",
       "cache": "/home/maryam1/scratch/test/easymore_outputs/temp_dir/",
-      "shapefile": "/home/maryam1/scratch/test/domain_cat.shp",
+      "shapefile": "/home/maryam1/scratch/test/domain/domain_cat.shp",
       "shapefile-id": "COMID",
       "source-nc": "/home/maryam1/scratch/test/datatool_outputs/**/*.nc*",
       "variable-lon": "longitude",
