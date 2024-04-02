@@ -18,9 +18,9 @@
           "SWRadAtm",
           "LWRadAtm"
       ],
-      "output-dir": "/home/maryam1/scratch/test/datatool_outputs",
+      "output-dir": "/home/shg096/scratch/test/datatool_outputs/ERA5",
       "start-date": "1980-01-01T13:00:00",
-      "end-date": "2018-01-30T12:00:00",
+      "end-date": "1981-01-01T12:00:00",
       "lat-lims": "20,43",
       "lon-lims": "40,63",
       "model": "",
@@ -40,14 +40,14 @@
       "variable": "MCD12Q1.006",
       "start-date": "2001-01-01",
       "end-date": "2002-01-01",
-      "output-dir": "/home/maryam1/scratch/test/gistool_outputs/MODIS",
+      "output-dir": "/home/shg096/scratch/test/gistool_outputs/MODIS",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/maryam1/scratch/test/domain_cat.shp",
+      "shape-file": "/home/shg096/scratch/test/domain/domain_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "frac",
-        "coords"
+        "majority"
       ],
       "quantile": "",
       "prefix": "domain_",
@@ -65,10 +65,10 @@
       "variable": "usda_mode_soilclass_250m_ll",
       "start-date": "",
       "end-date": "",
-      "output-dir": "/home/maryam1/scratch/test/gistool_outputs/soil_classes",
+      "output-dir": "/home/shg096/scratch/test/gistool_outputs/soil_classes",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/maryam1/scratch/test/domain_cat.shp",
+      "shape-file": "/home/shg096/scratch/test/domain/domain_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "frac",
@@ -83,17 +83,17 @@
         "parsable"
       ]
     },
-
+        
     {
       "dataset": "merit-hydro",
       "dataset-dir": "/project/rpp-kshook/CompHydCore/merit_hydro/raw_data/",
       "variable": "elv,hnd",
       "start-date": "",
       "end-date": "",
-      "output-dir": "/home/maryam1/scratch/test/gistool_outputs/merit_hydro",
+      "output-dir": "/home/shg096/scratch/test/gistool_outputs/merit_hydro",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/maryam1/scratch/test/domain_cat.shp",
+      "shape-file": "/home/shg096/scratch/test/domain/domain_cat.shp",
       "print-geotiff": "true",
       "stat": [
         "min",
@@ -109,15 +109,14 @@
         "parsable"
       ]
     }
-
     ],
 
     "remap": [{
       "case-name": "domain",
-      "cache": "/home/maryam1/scratch/test/easymore_outputs/temp_dir/",
-      "shapefile": "/home/maryam1/scratch/test/domain_cat.shp",
+      "cache": "/home/shg096/scratch/test/easymore_outputs/temp_dir/",
+      "shapefile": "/home/shg096/scratch/test/domain/domain_cat.shp",
       "shapefile-id": "COMID",
-      "source-nc": "/home/maryam1/scratch/test/datatool_outputs/**/*.nc*",
+      "source-nc": "/home/shg096/scratch/test/datatool_outputs/ERA5/*.nc*",
       "variable-lon": "longitude",
       "variable-lat": "latitude",
       "variable": [
@@ -131,7 +130,7 @@
       ],
       "remapped-var-id": "COMID",
       "remapped-dim-id": "COMID",
-      "output-dir": "/home/maryam1/scratch/test/easymore_outputs/remapped/",
+      "output-dir": "/home/shg096/scratch/test/easymore_outputs/remapped_ERA5/",
       "_flags": [
         "submit-job"
       ]
