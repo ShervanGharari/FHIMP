@@ -5,6 +5,7 @@ module purge
 deactivate
 
 
+module load StdEnv/2020
 module load gcc/9.3.0
 module load libfabric/1.10.1 ipykernel/2023a \
     sqlite/3.38.5 postgresql/12.4 gdal/3.5.1 \
