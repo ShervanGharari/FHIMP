@@ -36,13 +36,14 @@ them for future reference.
 Fortunately, all the above requirements are available on the DRA's Graham
 HPC. You may load the modules with the following command:
 ```console
+foo@bar:~$ module load StdEnv/2020
 foo@bar:~$ module load gcc/9.3.0
 foo@bar:~$ module load libfabric/1.10.1 ipykernel/2023a \
 		       sqlite/3.38.5 postgresql/12.4 gdal/3.5.1 \
 		       udunits/2.2.28 cdo/2.2.1 gentoo/2020 \
 		       imkl/2020.1.217 openmpi/4.0.3 scipy-stack/2023a \
 		       jasper/2.0.16 freexl/1.0.5 geos/3.10.2 \
-		       libaec/1.0.6 mpi4py/3.1.3 StdEnv/2020 \
+		       libaec/1.0.6 mpi4py/3.1.3 \
 		       gcc/9.3.0 libffi/3.3 hdf5/1.10.6 \
 		       libgeotiff-proj901/1.7.1 librttopo-proj9/1.1.0 \
 		       proj/9.0.1 eccodes/2.25.0 netcdf-fortran/4.5.2 \
