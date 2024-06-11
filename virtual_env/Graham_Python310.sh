@@ -12,7 +12,7 @@ module load libfabric/1.10.1 ipykernel/2023a \
     udunits/2.2.28 cdo/2.2.1 gentoo/2020 \
     imkl/2020.1.217 openmpi/4.0.3 scipy-stack/2023a \
     jasper/2.0.16 freexl/1.0.5 geos/3.10.2 \
-    libaec/1.0.6 mpi4py/3.1.3 StdEnv/2020 \
+    libaec/1.0.6 mpi4py/3.1.3 \
     gcc/9.3.0 libffi/3.3 hdf5/1.10.6 \
     libgeotiff-proj901/1.7.1 librttopo-proj9/1.1.0 \
     proj/9.0.1 eccodes/2.25.0 netcdf-fortran/4.5.2 \
